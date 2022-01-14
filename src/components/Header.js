@@ -8,7 +8,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img src={logo} alt={'logo'} className="w-40"/>
+                <img src={logo} alt={'logo'} className="w-36"/>
             </a>
         </div>
     )

@@ -26,10 +26,3 @@ Open a browser and check [http://localhost:3000](http://localhost:3000)
 ### Deployment
 
 I deploy to Vercel and you can ckeck by the link [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-

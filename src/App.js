@@ -1,12 +1,13 @@
 import Header from './components/Header'
+import MovieSection from "./components/MovieSection";
 
 function App() {
-  return (
-    <div className="">
-      <Header/>
-
-    </div>
-  );
+    return (
+        <>
+            <Header/>
+            <MovieSection/>
+        </>
+    );
 }
 
 export default App;
