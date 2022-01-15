@@ -45,7 +45,7 @@ const MovieSection = () => {
                 <h3>Result: {totalResult}</h3>
             </div>
             <MovieList data={movieData}/>
-            <div className="flex justify-center items-center">
+            <div className="my-10 flex justify-center items-center">
                 <button
                     className="bg-blue-300 rounded-md p-3 font-bold"
                 >
