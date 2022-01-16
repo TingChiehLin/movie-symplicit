@@ -25,4 +25,4 @@ Open a browser and check [http://localhost:3000](http://localhost:3000)
 
 ### Deployment
 
-I deploy to Vercel and you can ckeck by the link [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I deploy to Vercel and you can ckeck by the link [www](www)

@@ -10,12 +10,12 @@ const MovieSection = () => {
     const [submitText, setsubmitText] = useState("")
     const [movieData, setmovieData] = useState([])
     const [totalResult, settotalResult] = useState(0);
+    const [limitNumber, setlimitNumber] = useState(3);
 
     useEffect(() => {
         const fetchMovies = async () => {
             try {
                 await axios.get(submitText).then(res => {
-                    console.log("Data:", res.data)
                     setmovieData(res.data)
                     settotalResult(res.data.length)
                 })
@@ -38,16 +38,19 @@ const MovieSection = () => {
         setsubmitText(searchText)
     }
 
+    const handleRender = () => setlimitNumber(limitNumber + 3)
+
     return (
         <section className="h-full mt-20">
             <div className="flex justify-center items-center gap-4">
                 <SearchBar text={searchText} onChange={handleInput} onSubmit={handleSubmit}/>
                 <h3>Result: {totalResult}</h3>
             </div>
-            <MovieList data={movieData}/>
+            <MovieList data={movieData} limitNumber={limitNumber}/>
             <div className="my-10 flex justify-center items-center">
                 <button
                     className="bg-blue-300 rounded-md p-3 font-bold"
+                    onClick={handleRender}
                 >
                     Show More
                 </button>
