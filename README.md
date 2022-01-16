@@ -1,4 +1,4 @@
-# Movie - Symplicit
+# Symplicit - Movie
 
 This project is aim for a coding challenge. Users are able to search movies by [Movie API](https://api.tvmaze.com/search/shows?q=batman) and also they are able to see more information when they click `show more` button
 
@@ -25,4 +25,4 @@ Open a browser and check [http://localhost:3000](http://localhost:3000)
 
 ### Deployment
 
-I deploy to Vercel and you can ckeck by the link [www](www)
+I deploy to Vercel and you can ckeck by the link [https://symplicit-movie.vercel.app/](https://symplicit-movie.vercel.app/)
