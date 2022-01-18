@@ -1,8 +1,9 @@
 import React from 'react';
 
 const MovieCard = ({image, title, description}) => {
-    const formatText = description.replace("<p>", "").replace("</p>", "").replace("<b>", "").replace("</b>", "")
+    if (description === null) return <></>
     if (image === null) return <></>
+    const formatText = description.replace("<p>", "").replace("</p>", "").replace("<b>", "").replace("</b>", "")
     return (
         <div className="w-96 h-full mx-auto shadow-lg rounded-xl">
             <img src={image.original} alt={title}/>
